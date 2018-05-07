@@ -2,6 +2,13 @@
 
 Bezier Curve approximation using OpenGL - by Piecewise Cubic Bezier Curve drawing and de Casteljau's algorithms.
 
+Control Keys Summary:
+Define control points for the curve using mouse left-click.
+To clear screen press 'c' , to Render 'd'.
+If you don't enter n value as a command line argument then it is initialized to 0,
+then 'space' key is active and used to increment the value of n by 1 for each 'space' key press.
+
+
 In the default mode the user left-clicks inside the window to define a series of control points.
 Each left-click creates a new control point in the position the mouse points at, after which
 the program should draw a red point in that position.
@@ -24,10 +31,4 @@ according to the following process:
 By pressing 'c', the program should clear the window and return to the default mode.
 
 The program will not draw the last curve if it is quadratic, will only do so if n=0 and no Casteljau division is made.
-
-Control Keys Summary:
-To clear screen press 'C' , to Render 'D'.
-If you don't enter n value in command line then it is initialized to 0,
-then 'space' key is active and used to increment n value by 1 for each 'space' key press.
-
 
