@@ -1,6 +1,6 @@
 # Bezier-Curve
 
-Bezier Curve approximation using OpenGL - by Piecewise Cubic Bezier Curve drawing and de Casteljau's algorithms.
+Bezier Curve - Bezier Curve approximation using OpenGL – a live demonstration for drawing Bezier Curves using control points and the curve’s approximation by Piecewise Cubic Bezier Curve drawing and de Casteljau's algorithms (each one is drawn in a different color).
 
 Control Keys Summary:
 Define control points for the curve using mouse left-click.
